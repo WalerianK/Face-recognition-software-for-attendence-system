@@ -29,9 +29,8 @@ Please place them in appropriate location and add the value of the parent direct
                 ......
 
 Running the pipeline end-to-end .
-bash
-cd project/
-bash pipeline.sh
+        cd project/
+        bash pipeline.sh
 
 ## Inference 
 Please refer the classification_code.py for testing out single image and a set of images. You also have an option to visual detected user name on image.
