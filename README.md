@@ -15,19 +15,20 @@ pip install -r requirements.txt
 We are providing the codebase and the required structure for setting up your custom dataset. We assume A,B,C.. are unique users. We advise a minimum of 10 images with good variations in-terms of facial emotions , lightening conditions , head shift , etc for an optimal pipeline. 
 
 ### Input Directory 
-bash 
-├── Images/             # Data Folder 
-        ├── A_1.jpg 
-        ├── A_2.jpg
-        ├── A_3.jpg
-        ......
-        ├── B_1.jpg 
-        ├── B_2.jpg
-        ├── B_3.jpg
-        ......
-    
+
 Please place them in appropriate location and add the value of the parent directory inside the following bash file . Few values are present for the developer's reference , you will have to override every parameter for your setup .
 
+        ├── Images/         
+                ├── A_1.jpg 
+                ├── A_2.jpg
+                ├── A_3.jpg
+                ......
+                ├── B_1.jpg 
+                ├── B_2.jpg
+                ├── B_3.jpg
+                ......
+
+Running the pipeline end-to-end .
 bash
 cd project/
 bash pipeline.sh
