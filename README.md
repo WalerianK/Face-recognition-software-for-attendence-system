@@ -16,14 +16,14 @@ We are providing the codebase and the required structure for setting up your cus
 
 ### Input Directory 
 ├── Images/             # Data Folder 
-    ├── A_1.jpg 
-    ├── A_2.jpg
-    ├── A_3.jpg
-    ......
-    ├── B_1.jpg 
-    ├── B_2.jpg
-    ├── B_3.jpg
-    ......
+        ├── A_1.jpg 
+        ├── A_2.jpg
+        ├── A_3.jpg
+        ......
+        ├── B_1.jpg 
+        ├── B_2.jpg
+        ├── B_3.jpg
+        ......
     
 Please place them in appropriate location and add the value of the parent directory inside the following bash file . Few values are present for the developer's reference , you will have to override every parameter for your setup .
 
@@ -32,8 +32,7 @@ cd project/
 bash pipeline.sh
 
 ## Inference 
-Please refere the classification_code.py for testing out single image and a set of images. You also have an option to visual detected user name on image.
-
+Please refer the classification_code.py for testing out single image and a set of images. You also have an option to visual detected user name on image.
 
 ## Contact 
 For any suggestions/contributions to the repository , please contact : <br />
