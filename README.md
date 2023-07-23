@@ -15,6 +15,7 @@ pip install -r requirements.txt
 We are providing the codebase and the required structure for setting up your custom dataset. We assume A,B,C.. are unique users. We advise a minimum of 10 images with good variations in-terms of facial emotions , lightening conditions , head shift , etc for an optimal pipeline. 
 
 ### Input Directory 
+bash 
 ├── Images/             # Data Folder 
         ├── A_1.jpg 
         ├── A_2.jpg
