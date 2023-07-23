@@ -31,7 +31,6 @@ Please place them in appropriate location and add the value of the parent direct
 
 Running the pipeline end-to-end .
 ```bash
-        cd project/
         bash pipeline.sh
 ````
 
